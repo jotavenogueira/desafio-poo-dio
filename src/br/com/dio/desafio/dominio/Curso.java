@@ -20,8 +20,8 @@ public class Curso extends Conteudo {
     public String toString() {
         return "Curso{" +
                 "titulo='" + getTitulo() + '\'' +
-                ", \ndescricao='" + getDescricao() + '\'' +
-                ", \ncargaHoraria=" + cargaHoraria +
+                ", descricao='" + getDescricao() + '\'' +
+                ", cargaHoraria=" + cargaHoraria +
                 '}';
     }
 
